@@ -9,7 +9,7 @@ _O usuário e senha do postgreSQL será os mesmos que você definiu no arquivo .
 
 ## Iniciando o porjeto
 
-Para iniciar o projeto basta fazer o __clone__ do repositório e rodar o comando.
+Para iniciar o projeto basta fazer o __clone__ do repositório, para isso basta rodar o comando.
 
 ```
 git clone "https://LINK_DO_REPOSITORIO"
@@ -23,6 +23,9 @@ POSTGRES_DB="CHANGE-ME"
 POSTGRES_USER="CHANGE-ME"
 POSTGRES_PASSWORD="CHANGE-ME"
 ```
+
+_Para servir de exemplo tem um arquivo chamanek __.env-exemlme__ aonde você pode visualizar como fazer seu arwuivo .env.__
+
 ## Executando o projeto
 
 Para executar o projeto basta rodar o comando:
@@ -73,5 +76,5 @@ _Se por acaso precisar __apagar um container__, você pode usar os seguintes com
 
 - __Remover um container por ID:__
 ```
-docker re ID_DO_CONTAIER
+docker rm ID_DO_CONTAIER
 ```
