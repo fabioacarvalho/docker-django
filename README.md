@@ -27,3 +27,25 @@ Para executar o projeto basta rodar o comando:
 ``` 
 docker-compose up --build 
 ```
+
+Se quiser __forçar a recriação__ do container use o comando abaixo:
+
+```
+docker-compose up --build --force-recreate
+```
+
+## Comandos Extras
+
+Se por acaso precisar __apagar um container__, você pode usar os seguintes comandos:
+
+*Visualizar os container:*
+```
+docker ps -a
+```
+
+_Feito isso você pode verificar o __ID__ do container_
+
+__Remover um container por ID:__
+```
+docker re ID_DO_CONTAIER
+```
