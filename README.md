@@ -36,14 +36,21 @@ docker-compose up --build --force-recreate
 
 ## Comandos Extras
 
-Se por acaso precisar __apagar um container__, você pode usar os seguintes comandos:
 
-- __Visualizar os container:__
+- __Visualizar/listar os container:__
 ```
 docker ps -a
 ```
-
 _Feito isso você pode verificar o __ID__ do container_
+
+
+- __Visualizar/listar as imagens:__
+```
+docker image ls
+```
+
+
+_Se por acaso precisar __apagar um container__, você pode usar os seguintes comandos:_
 
 - __Remover um container por ID:__
 ```
