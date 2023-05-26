@@ -83,4 +83,6 @@ docker rm ID_DO_CONTAIER
 
 ## Créditos:
 
-- Luiz Otavio Miranda 
+<br>
+
+- GitHub [Luiz Otavio Miranda](https://github.com/luizomf)
