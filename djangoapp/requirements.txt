@@ -1,0 +1,2 @@
+Django>=4.2.1,<4.3
+psycopg2-binary>=4.9.6,<2.10 # use postgreSql
