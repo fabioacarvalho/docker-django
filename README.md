@@ -1,6 +1,9 @@
 # Docker and Django
 
-_Para utilizar esse projeto você precisa ter o Docker instalado e configurado._
+_Para utilizar esse projeto você precisa ter o [Docker](https://docs.docker.com/desktop/install/windows-install/) instalado e configurado._
+
+Se por acaso estiver utilizando no *__windows__*, você precisará instalar o [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
+
 
 _O usuário e senha do postgreSQL será os mesmos que você definiu no arquivo .env_
 
@@ -35,6 +38,13 @@ docker-compose up --build --force-recreate
 ```
 
 ## Comandos Extras
+
+
+- __Visualizar os logs:__
+```
+docker ps -a
+```
+_Feito isso você poderá ver os __logs__ do sistema no terminal como por exemplo, caso execute um print('')_
 
 
 - __Visualizar/listar os container:__
