@@ -24,7 +24,7 @@ POSTGRES_USER="CHANGE-ME"
 POSTGRES_PASSWORD="CHANGE-ME"
 ```
 
-_Para servir de exemplo tem um arquivo chamanek __.env-exemlme__ aonde você pode visualizar como fazer seu arwuivo .env.__
+_Para servir de exemplo tem um arquivo chamado __.env-examplo__ aonde você pode visualizar como fazer seu arquivo .env._
 
 ## Executando o projeto
 
@@ -78,3 +78,9 @@ _Se por acaso precisar __apagar um container__, você pode usar os seguintes com
 ```
 docker rm ID_DO_CONTAIER
 ```
+
+<br>
+
+## Créditos:
+
+- Luiz Otavio Miranda 
