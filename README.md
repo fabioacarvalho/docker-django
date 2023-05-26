@@ -40,11 +40,20 @@ docker-compose up --build --force-recreate
 ## Comandos Extras
 
 
+- __Criar novos apps:__
+```
+docker-compose run djangoapp python manage.py startapp nome_do_app
+```
+Perceba que aqui estamos utilizando o __djangoapp__ na frente do python, isso porque ele se refere ao nome do serviço que criamos dentro do arquivo __docker-compose.yml__.
+
+_Então para executar qualquer comando basta adicionar o __docker-compose run djangoapp__ na frente_.
+
+
 - __Visualizar os logs:__
 ```
-docker ps -a
+docker-compose up
 ```
-_Feito isso você poderá ver os __logs__ do sistema no terminal como por exemplo, caso execute um print('')_
+_Feito isso você poderá ver os __logs__ do sistema no terminal como por exemplo, caso execute um print(''), caso não queira visuarlizar os logs, basta aficionar o __-d__ no final do comando._
 
 
 - __Visualizar/listar os container:__
